@@ -3,13 +3,11 @@ int main() {
     int choice;
     float num1, num2, result;
 
-    printf(" Select operation:\n
-        1. Addition\n
-        2. Subtraction\n
-        3. Multiplication \n
-        4. Division\n
-        Enter your choice (1-4): ");
-    scanf("%d", &choice);");
+    printf(" addition: 1\n");
+    printf(" subtraction: 2\n");
+    printf(" multiplication: 3\n");
+    printf(" division: 4\n");
+    scanf("%d", & choice) ;
 
     printf("Enter two numbers: ");
     scanf("%f %f", &num1, &num2);
